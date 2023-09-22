@@ -1,0 +1,7 @@
+main()
+{
+char x;
+printf (" enter a character: ");
+scanf(" %c\n ", &n);
+printf(" ASCII value %d\n", n);
+}
