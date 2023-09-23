@@ -1,0 +1,10 @@
+main()
+{
+int a,b,x;
+printf(" Enter 2 nos: ");
+scanf(" %d %d ", &a &b);
+x=a;
+if(b>x)
+  x=b;
+printf(" Greatest %d \n", &b);
+}
