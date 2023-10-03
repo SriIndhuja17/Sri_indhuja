@@ -1,0 +1,39 @@
+Disaster Recovery with IBM Cloud Virtual Servers
+Phase 1: Problem Definition and Design Thinking  
+
+In this part you will need to understand the problem statement and create a document on what have you understood and how will you proceed ahead with solving the problem. Please think on a design and present in form of a document.  
+
+Problem Definition: The project involves creating a disaster recovery plan using IBM Cloud Virtual Servers. The objective is to safeguard business operations by developing a plan that ensures continuity for an on-premises virtual machine in unforeseen events. This plan will include setting up backup strategies, configuring replication, testing the recovery process, and guaranteeing minimal downtime. The project encompasses defining the disaster recovery strategy, implementing backup and replication, validating recovery procedures, and ensuring business continuity. 
+
+Design Thinking: 
+
+Disaster Recovery Strategy: Define the disaster recovery strategy and objectives, including recovery time objectives (RTO) and recovery point objectives (RPO). 
+
+Backup Configuration: Configure regular backups of the on-premises virtual machine to capture critical data and configurations. 
+
+Replication Setup: Implement replication of data and virtual machine images to IBM Cloud Virtual Servers to ensure up-to-date copies. 
+
+Recovery Testing: Design and conduct recovery tests to validate the recovery process and guarantee minimal downtime. 
+
+Business Continuity: Ensure that the disaster recovery plan aligns with the organization's overall business continuity strategy. 
+
+Prioritizing applications
+
+Not all workloads are equally critical to your business’s ability to maintain operations, and downtime is far more tolerable for some applications than it is for others. Separate your systems and applications into three tiers, depending on how long you could stand to have them be down and how serious the consequences of data loss would be.
+
+Mission-critical: Applications whose functioning is essential to your business’s survival.
+
+Important: Applications for which you could tolerate relatively short periods of downtime.
+
+Non-essential: Applications you could temporarily replace with manual processes or do without.
+
+Establishing recovery time objectives, recovery point objectives, and recovery consistency objectives
+
+By considering your risk and business impact analyses, you should be able to establish objectives for how long you’d need it to take to bring systems back up, how much data you could stand to use, and how much data corruption or deviation you could tolerate.
+
+Your recovery time objective (RTO) is the maximum amount of time it should take to restore application or system functioning following a service disruption.
+ 
+
+Your recovery point objective (RPO) is the maximum age of the data that must be recovered in order for your business to resume regular operations. For some businesses, losing even a few minutes’ worth of data can be catastrophic, while those in other industries may be able to tolerate longer windows.
+
+A recovery consistency objective (RCO) is established in the service-level agreement (SLA) for continuous data protection services. It is a metric that indicates how many inconsistent entries in business data from recovered processes or systems are tolerable in disaster recovery situations, describing business data integrity across complex application environments.
